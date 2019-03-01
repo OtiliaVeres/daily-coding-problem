@@ -8,7 +8,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 module.exports = {
     solution: function(arrayNumbers, k) {
-        if (arrayNumbers === undefined || list == null)
+        if (arrayNumbers === undefined || arrayNumbers == null)
             return false;
         if (typeof k !== 'number')
             return false;
